@@ -3,7 +3,18 @@
  */
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `semi-yu-blog`,
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `article-contents`,
+        path: `${__dirname}/article-contents`,
+      }
+    },
+    "gatsby-plugin-mdx"
+  ],
 }

@@ -1,3 +1,9 @@
+# 이게 뭐에요?
+<a href="https://www.gatsbyjs.com/">Gatsby</a>를 활용해서 블로그를 만들었습니다. Github pages로 호스팅합니다. 블로그 링크는 <a></a>입니다.
+
+# 네.
+네.
+
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
