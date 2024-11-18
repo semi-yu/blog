@@ -9,8 +9,9 @@
   ],
   "scripts": {
     "develop": "gatsby develop",
-    "start": "gatsby develop",
     "build": "gatsby build",
+    "deploy": "gatsby build && gh-pages -d public",
+    "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
@@ -22,6 +23,7 @@
     "gatsby-plugin-mdx": "^5.13.1",
     "gatsby-plugin-sharp": "^5.13.1",
     "gatsby-source-filesystem": "^5.13.1",
+    "gh-pages": "^6.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
