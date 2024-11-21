@@ -1,5 +1,6 @@
 {
   "name": "semi-yu-blog",
+  "homepage":"https://semi-yu.github.io/blog",
   "version": "1.0.0",
   "private": true,
   "description": "semi-yu-blog",
@@ -10,7 +11,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "deploy": "gatsby build && gh-pages -d public",
+    "deploy": "gatsby build && gh-pages -d public -b gh-pages",
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
